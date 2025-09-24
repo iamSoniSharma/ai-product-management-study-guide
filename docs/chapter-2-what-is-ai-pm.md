@@ -1,6 +1,5 @@
 # Chapter 2 — What is AI Product Management?
 
-
 Definition and Scope
 
 AI Product Management (AI PM) is the discipline of developing, launching, and improving products that are powered by artificial intelligence. The AI PM ensures that AI capabilities are used to solve meaningful user problems, create business value, and operate safely.
@@ -23,7 +22,7 @@ How it Compares with Traditional PM
 
 To appreciate the scope of AI PM, let’s compare it with traditional PM:
 
-Traditional PM
+> Traditional PM
 
 Works with deterministic systems (e.g., payroll, tax calculators, form validation).
 
@@ -33,7 +32,7 @@ Success measured by adoption, revenue, and satisfaction.
 
 Main risks: bugs, usability gaps, missed deadlines.
 
-## Ai Pm
+> AI PM
 
 Works with probabilistic systems (e.g., fraud detection, recommendations, generative text).
 
@@ -43,7 +42,7 @@ Success measured by business outcomes and model metrics (accuracy, fairness, lat
 
 Main risks: biased models, hallucinations, model drift, loss of trust.
 
-## Example
+Example:
 
 Imagine building a spam filter.
 
@@ -65,8 +64,7 @@ Monitor for drift (when real-world data changes and the model performance decays
 
 Case Example: An AI-powered hiring tool learned to down-rank female applicants because historical data favored men. An AI PM must anticipate and prevent such bias by curating balanced training data.
 
-Defining Model Metrics and Guardrails
-
+- Defining Model Metrics and Guardrails
 Decide which errors are tolerable and which are not.
 
 Example: A recommendation model suggesting an irrelevant movie is tolerable. A medical diagnosis model missing cancer is not.
@@ -77,7 +75,7 @@ Continuous Monitoring and Improvement
 
 Traditional features are “done” after release; AI features are never done.
 
-AI PMs must set up pipelines to monitor accuracy, fairness, and latency after launch.
+> AI PMs must set up pipelines to monitor accuracy, fairness, and latency after launch.
 
 They coordinate retraining, model updates, and A/B testing.
 
@@ -85,7 +83,7 @@ Ethical and Regulatory Compliance
 
 Ensure AI outputs are explainable, fair, and compliant with laws (e.g., GDPR, APRA CPS 230).
 
-Example: A credit scoring model must explain why a user was rejected, not just output “Declined.”
+## Example: A credit scoring model must explain why a user was rejected, not just output “Declined.”
 
 Cross-Functional Translation
 
@@ -95,7 +93,7 @@ Collaborate with data scientists (“We need recall ≥ 90% and fairness across 
 
 Work with designers (“Show model confidence levels to build trust”).
 
-Analogy: The Recipe vs The Chef
+## Analogy: The Recipe vs The Chef
 
 A traditional PM is like writing a detailed recipe for a dish: “Add 200g flour, bake for 20 minutes.”
 
@@ -109,6 +107,7 @@ By the end of this chapter, a beginner should clearly understand:
 
 What AI PM is and how it differs from traditional PM.
 
-Why data, metrics, and guardrails are central to AI PM.
+## Why data, metrics, and guardrails are central to AI PM.
 
 The expanded scope of responsibilities — from ethics to continuous monitoring.
+
