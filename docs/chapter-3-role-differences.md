@@ -1,27 +1,23 @@
 # Chapter 3 — Key Role Differences Between AI PM and Traditional PM
 
-
 AI Product Managers don’t just manage features — they manage learning systems. This introduces new challenges and requires a different mindset compared to traditional Product Management.
 
-Probabilistic vs Deterministic Systems
-
-Deterministic Systems
-
+- **Probabilistic vs Deterministic Systems**
+- **Deterministic Systems**
 Definition: Fixed rules and predictable outputs. The same input always produces the same output.
 
 Example: A tax calculator. If you enter your salary and tax rate, the output is always the same.
 
 Implication for PM: Traditional PMs focus on defining the rules, workflows, and user experience around these predictable outputs.
 
-Probabilistic Systems
-
+- **Probabilistic Systems**
 Definition: Outputs are predictions based on patterns in data. The same input may produce different outputs depending on context or confidence.
 
 Example: A fraud detection model that says, “72% chance this transaction is fraudulent.”
 
 Implication for AI PM: You must plan for uncertainty, define what happens when the model is unsure, and design ways to communicate this to users or escalate to human review.
 
-## Analogy
+## Analogy:
 
 A deterministic system is like a vending machine: insert $2, get a soda.
 
@@ -41,7 +37,7 @@ Is it labeled correctly for training?
 
 Case Example — Voice Assistants:
 
-When Amazon Alexa first launched, users with non-American accents reported high error rates. Why? The training data was skewed toward American English.
+## When Amazon Alexa first launched, users with non-American accents reported high error rates. Why? The training data was skewed toward American English.
 
 Lesson for AI PMs: Ensure data covers the full range of intended users.
 
@@ -51,7 +47,7 @@ If a diagnostic model is trained mostly on X-rays from one hospital, it may fail
 
 New Success Metrics
 
-Traditional PMs measure adoption, revenue, retention, and satisfaction. AI PMs must go beyond that:
+> Traditional PMs measure adoption, revenue, retention, and satisfaction. AI PMs must go beyond that:
 
 Product Metrics
 
@@ -81,7 +77,7 @@ Cost per Query: Is the AI affordable to run at scale?
 
 Drift Detection: Is model accuracy decaying as real-world data changes?
 
-## Example
+Example:
 
 In fraud detection, recall is critical — missing a fraud case could cost millions.
 
@@ -91,7 +87,7 @@ In generative AI chatbots, hallucination rate is crucial — wrong answers erode
 
 Ethical Considerations
 
-AI PMs carry ethical responsibilities beyond traditional PMs.
+> AI PMs carry ethical responsibilities beyond traditional PMs.
 
 Bias
 
@@ -105,7 +101,7 @@ Transparency & Explainability
 
 Problem: Black-box predictions erode trust.
 
-Example: A bank customer denied a loan deserves to know why.
+## Example: A bank customer denied a loan deserves to know why.
 
 Solution: Provide interpretable explanations: “Loan denied due to insufficient income-to-debt ratio.”
 
@@ -129,10 +125,11 @@ Solution: Implement refusals, safety filters, and human-in-loop review for high-
 
 By the end of this chapter, a beginner should understand:
 
-Why AI PMs must think in probabilities, not certainties.
+## Why AI PMs must think in probabilities, not certainties.
 
-Why data quality and diversity is as important as features.
+## Why data quality and diversity is as important as features.
 
 How metrics expand to cover model and operational performance.
 
-Why ethics, fairness, and transparency are core responsibilities of AI PMs.
+## Why ethics, fairness, and transparency are core responsibilities of AI PMs.
+
