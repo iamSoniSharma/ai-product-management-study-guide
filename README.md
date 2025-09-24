@@ -1,4 +1,3 @@
-# ai-product-management-study-guide
 # AI Product Management Study Guide  
 
 Welcome to my **AI Product Management Study Guide**.  
